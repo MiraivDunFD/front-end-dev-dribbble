@@ -1,0 +1,352 @@
+/* CSS Document */
+/*Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+
+  background-color: white;
+  margin:0;
+  padding:0;
+}
+
+
+
+
+/*----------------------hero section----------------------- */
+#hero-image-text{
+padding: 1.5em;
+
+background-color: #EFF7FF;
+}
+
+
+/*----------------------Font usage----------------------- */
+h1, h2 {
+  font-family: Poppins;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 12px;
+  font-family: Open Sans, sans-serif;
+}
+
+p {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+
+a {
+font-family: poppins;
+text-decoration: none;
+
+}
+
+
+/*----------------------navigation bar----------------------- */
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul{
+  list-style: none;
+}
+
+nav ul{
+  display: none;
+}
+
+.nav-ul.show{
+  display: flex;
+}
+
+.hamburger{
+  display: block;
+}
+
+nav img{
+  max-width: 7em;
+  padding: 1.5em;
+  }
+
+
+
+.hamburger{
+ color: grey;
+ background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  border: 0;
+  margin: 0;
+}
+
+
+/*----------------------buttons----------------------- */
+button {
+  font-family: poppins;
+  background-color: #ff006e;
+  border: none;
+  border-radius: 5em;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+/*----------------------Little notice begin screen----------------------- */
+#notice-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  background-color: black;
+
+
+}
+
+/*----------notice text------------ */
+#notice-content h3 {
+  max-width: 80%;
+  text-align: center;
+}
+
+/*----------------------Hero section specifics----------------------- */
+
+#hero-image-text img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.herotext img {
+  max-width: 100%;
+}
+
+
+.herotext {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35em;
+  text-align: center;
+}
+
+/*----------------------secundairy menu----------------------- */
+.menu2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+padding:1em;
+  
+}
+
+.secundairymenu {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+gap: 0.8em;
+}
+
+.secundairymenu li {
+  list-style: none;
+  padding: 0.5em;
+  font-size: 14px;
+  font-style: normal;
+  border-radius: 0.5em;
+}
+
+.secundairymenu li a {
+  text-decoration: none;
+  color: black;
+  font-family: Open Sans, sans-serif;
+}
+
+/*----------------------button state----------------------- */
+.active {
+  background-color: lightgrey;
+  color: black;
+}
+
+/*----------------------ARTRICLE SECTION HERE!----------------------- */
+.articles {
+  margin:2em;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+  gap: 2em;
+
+  
+}
+
+article{
+  max-width: 30em;
+
+}
+
+article img {
+  max-width: 100%;
+  border-radius: 0.5em;
+}
+
+.textprofile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 1em;
+}
+
+.textprofile img {
+  height: 1.5em;
+}
+
+.image-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0em 0.5em 0em 0.5em;
+  gap: 0.5em;
+}
+
+.heart-eye{
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+  padding: 0em 0.5em 0em 0.5em;
+}
+
+
+.heart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3em;
+  color: grey;
+
+}
+
+.views {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3em;
+  color: grey;
+}
+
+/*----------------------footer----------------------- */
+footer{
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+footer p{
+  font-family: poppins;
+}
+
+footer a{
+  font-family: Open Sans, sans-serif;
+}
+
+
+
+
+
+/*----------------------Screen sizes 1000 px & up----------------------- */
+
+@media(min-width:1000px) {
+  nav ul{
+    display:contents;
+  }
+
+
+
+  /*----------Hero section specifics------------ */
+  #hero-image-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #hero-image-text img {
+    max-width: 50%;
+  }
+
+  .herotext {
+    text-align: left;
+    padding: 2em;
+  }
+
+    /*----------Article section------------ */
+
+  .articles {
+    margin:2em;
+    margin-top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+  }
+
+  article{
+    max-width: 25em;
+  }
+}
+
+  /*----------------------Screen sizes 1300 px & up----------------------- */
+  @media(min-width:1300px) {
+
+    nav ul{
+      display:contents;
+    }
+
+    #hero-image-text {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .herotext {
+      margin: 0;
+    }
+
+
+    #hero-image-text img {
+      margin: 1em;
+
+    }
+
+        /*----------Article section------------ */
+        article{
+          max-width: 23.5em;
+        }
+
+  }
+
+
