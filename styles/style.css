@@ -121,6 +121,7 @@ background-color: white;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
@@ -586,7 +587,7 @@ footer a {
 .navbar{
   display: flex;
   flex-direction: row;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 .nav-menu{
