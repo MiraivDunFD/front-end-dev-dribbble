@@ -1,29 +1,33 @@
 /* CSS Document */
 /*Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
 
   background-color: white;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
+
 
 
 
 
 /*----------------------hero section----------------------- */
-#hero-image-text{
-padding: 1.5em;
+#hero-image-text {
+  padding: 1.5em;
 
-background-color: #EFF7FF;
+  background-color: #EFF7FF;
 }
 
 
 /*----------------------Font usage----------------------- */
-h1, h2 {
+h1,
+h2,
+h3,
+h4 {
   font-family: Poppins;
 }
 
@@ -35,64 +39,152 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 25px;
+  margin: 0em;
 }
 
 h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ff006e;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h5 {
   font-size: 12px;
   font-family: Open Sans, sans-serif;
 }
 
-p {
-  font-size: 16px;
+p,
+li {
+  font-size: 18px;
   font-family: Open Sans, sans-serif;
+  line-height: 1.6em;
 }
 
+
+
+
+
 a {
-font-family: poppins;
-text-decoration: none;
+  font-family: poppins;
+  text-decoration: none;
+  font: 18px;
+}
+
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #ff006e;
+}
+
+a:active {
+  color: green;
 
 }
 
 
 /*----------------------navigation bar----------------------- */
-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
-ul{
+
+nav ul {
   list-style: none;
 }
 
-nav ul{
-  display: none;
+.spacer{
+height: 4em;
 }
 
-.nav-ul.show{
-  display: flex;
-}
-
-.hamburger{
-  display: block;
-}
-
-nav img{
+nav img {
   max-width: 7em;
   padding: 1.5em;
-  }
+}
+
+/*----------------------hamburger css animatie----------------------- */
+.navbar{
+  width: 100%;
+  position: fixed;
+  height: 4em;
+background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin:5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ff006e;
+}
 
 .hamburger{
- color: grey;
- background-color: transparent;
-  cursor: pointer;
-  font-size: 20px;
-  border: 0;
-  margin: 0;
+  padding: 0 2em 0 0;
+  display: block;
+  cursor:pointer;
 }
+
+/*----------------------aanspreken van second child uit hamburger class (2e streepje gaat verdwijnen)----------------------- */
+.hamburger.active .bar:nth-child(2){
+opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg); 
+}
+
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg); 
+}
+
+.nav-menu{
+  position: fixed;
+  left:-150%;
+  top: 4em;
+  gap: 0;
+  flex-direction: column;
+
+  width: 100%;
+ 
+  text-align: center;
+  transition: 0.3s;
+}
+
+.nav-item{
+display: flex;
+flex-direction: column;
+gap: 2em;
+padding: 4em 2em 4em 2em;
+justify-content: center;
+
+
+}
+
+.nav-menu.active{
+
+  left: 0;
+  margin: 0;
+  padding: 0;
+
+ 
+}
+
 
 
 /*----------------------buttons----------------------- */
@@ -110,6 +202,20 @@ button {
   margin-bottom: 2em;
 }
 
+button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button:active{
+  box-shadow: inset 0 0 30px #a80049;
+}
+
+button:focus{
+  border: 1px;
+  
+  
+}
+
 /*----------------------Little notice begin screen----------------------- */
 #notice-content {
   display: flex;
@@ -117,8 +223,12 @@ button {
   justify-content: center;
   color: white;
   background-color: black;
+}
 
-
+#notice-content p {
+  font-size: 14px;
+  text-align: center;
+  padding: 0em 1em 0em 1em;
 }
 
 /*----------notice text------------ */
@@ -126,6 +236,20 @@ button {
   max-width: 80%;
   text-align: center;
 }
+
+
+/*----------------------Detail header specs----------------------- */
+
+
+.header-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 1.5em;
+  max-width: 50em;
+}
+
+
 
 /*----------------------Hero section specifics----------------------- */
 
@@ -150,13 +274,14 @@ button {
 }
 
 /*----------------------secundairy menu----------------------- */
-.menu2{
+.menu2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: white;
-padding:1em;
-  
+  padding: 1em;
+  box-shadow: none;
+
 }
 
 .secundairymenu {
@@ -166,7 +291,7 @@ padding:1em;
   justify-content: center;
   flex-wrap: wrap;
   padding-left: 0;
-gap: 0.8em;
+  gap: 0.8em;
 }
 
 .secundairymenu li {
@@ -178,36 +303,34 @@ gap: 0.8em;
 }
 
 .secundairymenu li a {
-  text-decoration: none;
-  color: black;
   font-family: Open Sans, sans-serif;
 }
 
 /*----------------------button state----------------------- */
 .active {
-  background-color: lightgrey;
+  background-color: white;
   color: black;
 }
 
 /*----------------------ARTRICLE SECTION HERE!----------------------- */
 .articles {
-  margin:2em;
+  margin: 2em;
   margin-top: 0;
   display: flex;
   flex-direction: column;
- 
+
   align-items: center;
   gap: 2em;
 
-  
+
 }
 
-article{
+article {
   max-width: 30em;
 
 }
 
-article img {
+img {
   max-width: 100%;
   border-radius: 0.5em;
 }
@@ -217,13 +340,14 @@ article img {
   flex-direction: row;
   justify-content: space-between;
   column-gap: 1em;
+
 }
 
 .textprofile img {
   height: 1.5em;
 }
 
-.image-name{
+.image-name {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -231,7 +355,7 @@ article img {
   gap: 0.5em;
 }
 
-.heart-eye{
+.heart-eye {
   display: flex;
   flex-direction: row;
   gap: 0.8em;
@@ -256,24 +380,195 @@ article img {
   color: grey;
 }
 
-/*----------------------footer----------------------- */
-footer{
-  background-color: #F2F2F2;
+/*----------------------profile image detail info----------------------- */
+.text-only {
   display: flex;
   flex-direction: row;
+  gap: 0.3em;
+}
+
+.grey-for {
+  color: grey;
+}
+
+
+
+.profile-image-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.profile-image-detail img {
+  max-width: 2em;
+}
+
+.title-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+/*----------------------figure & fig cap----------------------- */
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+max-width: 50em;
+margin: 0;
 }
 
 
 
 
-footer p{
-  font-family: poppins;
+figcaption{
+  font-family: Open Sans, sans-serif;
+  font-size: 12px;
+  color: grey;
+  padding: 1em;
+  text-align: right;
 }
 
-footer a{
+.detail-content{
+  display: flex;
+  flex-direction: column;
+ padding: 0 1.5em 1.5em 1.5em;
+ max-width: 50em;
+margin: auto;
+
+
+}
+
+.bullets{
+  padding: 2.5em;
+  background-color: white;
+  margin: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0.5em;
+}
+
+.bullets li{
+  padding-top: 1em;
+}
+
+.bullets h4 {
+  margin: 0;
+}
+
+/*----------------------rally end detail----------------------- */
+.rally-end{
+text-align: center;
+margin: 4em 0 4em 0;
+}
+
+.rally-end h2{
+margin: 1em 0 0 0;
+}
+
+.rally-end p{
+  color: grey;
+  margin: 0;
+}
+
+
+
+.rally-end img{
+  border-radius: 100%;
+  max-width: 5em;
+}
+
+.more-by-rally{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+  
+
+}
+
+.more-by-rally img{
+
+  margin-bottom: 2em;
+
+}
+
+
+/*----------------------footer----------------------- */
+footer {
+  background-color: #F2F2F2;
+  padding: 2em;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4em;
+
+}
+
+footer section {
+  max-width: 100%;
+}
+
+footer p {
+  font-size: 14px;
+  max-width: 20em;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+footer img {
+  max-width: 8em;
+
+}
+
+.footerlists {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  gap: 6em;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  padding: 0em 0em 1em 0em;
+}
+
+.title {
+  padding: 0;
+}
+
+footer a {
   font-family: Open Sans, sans-serif;
 }
 
+.footer-socials i {
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.allrights {
+  display: flex;
+  justify-content: space-between;
+  gap: 4em;
+
+  color: grey;
+}
 
 
 
@@ -281,10 +576,33 @@ footer a{
 /*----------------------Screen sizes 1000 px & up----------------------- */
 
 @media(min-width:1000px) {
-  nav ul{
-    display:contents;
+  .hamburger{
+    display: none;
+ 
   }
 
+/*----------------------navigation bar----------------------- */
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.nav-menu{
+  display: contents;
+  position: fixed;
+  flex-direction:row;
+
+}
+
+.nav-item{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  padding-right: 2em;
+  justify-content: center;
+  }
 
 
   /*----------Hero section specifics------------ */
@@ -303,10 +621,10 @@ footer a{
     padding: 2em;
   }
 
-    /*----------Article section------------ */
+  /*----------Article section------------ */
 
   .articles {
-    margin:2em;
+    margin: 2em;
     margin-top: 0;
     flex-direction: row;
     flex-wrap: wrap;
@@ -314,39 +632,64 @@ footer a{
     justify-content: center;
   }
 
-  article{
+  article {
     max-width: 25em;
   }
+
+  footer {
+    padding: 2em 6em 2em 6em;
+
+  }
+
+  /*----------------------------------detail page------------------------------------ */
+  .more-by-rally{
+flex-direction: row;
+justify-content: space-between;
+
+  
+  }
+
+  .more-by-rally img{
+    max-width: 15em;
+
+        }
+
 }
 
-  /*----------------------Screen sizes 1300 px & up----------------------- */
-  @media(min-width:1300px) {
+/*----------------------Screen sizes 1300 px & up----------------------- */
+@media(min-width:1300px) {
 
-    nav ul{
-      display:contents;
-    }
+  nav ul {
+    display: contents;
+  }
 
-    #hero-image-text {
-      display: flex;
-      justify-content: center;
+  #hero-image-text {
+    display: flex;
+    justify-content: center;
 
-    }
+  }
 
-    .herotext {
-      margin: 0;
-    }
+  .herotext {
+    margin: 0;
+  }
 
 
-    #hero-image-text img {
-      margin: 1em;
+  #hero-image-text img {
+    margin: 1em;
 
-    }
+  }
 
-        /*----------Article section------------ */
-        article{
-          max-width: 23.5em;
-        }
+  /*----------Article section------------ */
+  article {
+    max-width: 23.5em;
+  }
+
+  footer {
+    padding: 2em 9em 2em 9em;
 
   }
 
 
+
+
+}

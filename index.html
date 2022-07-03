@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Mirai van Dun">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Dribbble - Discover the world's top Design.</title>
 	<script src="script.js"></script>
 
-	<!-- link naar css & font awesome voor hamburger menu icon -->
+	<!-- link naar css & font awesome voor icons in articles -->
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="styles/all.min.css">
 
@@ -19,34 +19,47 @@
 
 <body>
 
-	<nav>
-		<img src="images/logo.svg" alt="logo" />
-		<button class="hamburger" id="hamburger">
-			<!-- font awesome benoeming voor icoon -->
-			<i class="fas fa-bars"></i>
-		</button>
-		<ul>
-			<li><a href="#">Inspiration</a></li>
-			<li><a href="#">Find Work</a></li>
-			<li><a href="#">Learn Design</a></li>
-			<li><a href="#">Go Pro</a></li>
-			<li><a href="#">Market Place</a></li>
-			<li><a href="#">Hire Designers</a></li>
-		</ul>
-	</nav>
+	<!-- The <header> HTML element represents introductory content, typically a group of introductory or navigational aids. 
+	It may contain some heading elements but also a logo, a search form, an author name, and other elements. -->
+	<header>
 
 
-	<div id="notice-content">
-		<h3>📚Join the Early Bird list to get 40% off our Product Design course starting October 3.</h3>
-	</div>
+		<!--Tweede nav bar!!!!!!!!!--------------------------------------------------->
+		
+		<nav class="navbar">
+			<img src="images/logo.svg" alt="logo" />
+
+			<ul class="nav-menu">
+			<li class="nav-item">
+				<a href="index.html" class="nav-link">Inspiration</a>
+				<a href="index.html" class="nav-link">Find Work</a>
+				<a href="index.html" class="nav-link">Learn Design</a>
+				<a href="index.html" class="nav-link">Go Pro</a>
+				<a href="index.html" class="nav-link">Market Place</a>
+				<a href="index.html" class="nav-link">Hire Designers</a>
+			</li>
+			</ul>
+			
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			
+		
+		</nav>
+
+		<div class="spacer"></div>
 
 
-	<main>
+		<div id="notice-content">
+			<p>📚Join the Early Bird list to get 40% off our Product Design course starting October 3.</p>
+		</div>
 
 		<!-- HERO SECTION HIER -->
 
 		<div id="hero-image-text">
-			<img src="images/heroimage.jpg" alt="hero-video">
+			<img src="images/heroimage.jpg" alt="hero-image">
 			<section class="herotext">
 
 				<h1>Discover the world’s top designers & creatives</h1>
@@ -55,6 +68,12 @@
 				<button type="button" name="button">Sign up</button>
 			</section>
 		</div>
+	</header>
+
+
+	<main>
+
+
 
 		<!-- tweede menu section -->
 		<nav class="menu2">
@@ -67,7 +86,7 @@
 				<li><a href="#">Illustration</a></li>
 				<li><a href="#">Mobile</a></li>
 				<li><a href="#">Print</a></li>
-				<li><a href="#">product Design</a></li>
+				<li><a href="#">Product Design</a></li>
 				<li><a href="#">Typography</a></li>
 				<li><a href="#">Web Design</a></li>
 			</ul>
@@ -77,503 +96,503 @@
 		<section class="articles">
 			<!--Article 1-->
 			<article>
-				<img src="images/project-banner.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+			<!--Article 2-->
 			<article>
-				<img src="images/project-banner2.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner2.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
-						</section>
-					</div>
-				</section>
-			</article>
-
-
-			<!--Article 1-->
-			<article>
-				<img src="images/project-banner3.jpg" alt="Product banner" />
-
-				<section class="textprofile">
-
-					<div class="image-name">
-						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
-					</div>
-
-					<div class="heart-eye">
-						<section class="heart">
-							<i class="fas fa-heart"></i>
-							<h3>77</h3>
-						</section>
-
-						<section class="views">
-							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
-						</section>
-					</div>
-				</section>
-			</article>
-
-			<!--Article 1-->
-			<article>
-				<img src="images/project-banner4.jpg" alt="Product banner" />
-
-				<section class="textprofile">
-
-					<div class="image-name">
-						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
-					</div>
-
-					<div class="heart-eye">
-						<section class="heart">
-							<i class="fas fa-heart"></i>
-							<h3>77</h3>
-						</section>
-
-						<section class="views">
-							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
-						</section>
-					</div>
-				</section>
-			</article>
-
-			<!--Article 1-->
-			<article>
-				<img src="images/project-banner5.jpg" alt="Product banner" />
-
-				<section class="textprofile">
-
-					<div class="image-name">
-						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
-					</div>
-
-					<div class="heart-eye">
-						<section class="heart">
-							<i class="fas fa-heart"></i>
-							<h3>77</h3>
-						</section>
-
-						<section class="views">
-							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
-						</section>
-					</div>
-				</section>
-			</article>
-
-			<!--Article 1-->
-			<article>
-				<img src="images/project-banner6.jpg" alt="Product banner" />
-
-				<section class="textprofile">
-
-					<div class="image-name">
-						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
-					</div>
-
-					<div class="heart-eye">
-						<section class="heart">
-							<i class="fas fa-heart"></i>
-							<h3>77</h3>
-						</section>
-
-						<section class="views">
-							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
-						</section>
-					</div>
-				</section>
-			</article>
-
-			<!--Article 1-->
-			<article>
-				<img src="images/project-banner7.jpg" alt="Product banner" />
-
-				<section class="textprofile">
-
-					<div class="image-name">
-						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
-					</div>
-
-					<div class="heart-eye">
-						<section class="heart">
-							<i class="fas fa-heart"></i>
-							<h3>77</h3>
-						</section>
-
-						<section class="views">
-							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
 
-			<!--Article 1-->
+			<!--Article 3-->
 			<article>
-				<img src="images/project-banner8.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner3.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+			<!--Article 4-->
 			<article>
-				<img src="images/project-banner9.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner4.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+			<!--Article 5-->
 			<article>
-				<img src="images/project-banner10.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner5.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+			<!--Article 6-->
 			<article>
-				<img src="images/project-banner11.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner6.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+			<!--Article 7-->
 			<article>
-				<img src="images/project-banner12.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner7.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
-						</section>
-					</div>
-				</section>
-			</article>
-
-			<!--Article 1-->
-			<article>
-				<img src="images/project-banner13.jpg" alt="Product banner" />
-
-				<section class="textprofile">
-
-					<div class="image-name">
-						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
-					</div>
-
-					<div class="heart-eye">
-						<section class="heart">
-							<i class="fas fa-heart"></i>
-							<h3>77</h3>
-						</section>
-
-						<section class="views">
-							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
 
-			<!--Article 1-->
+			<!--Article 8-->
 			<article>
-				<img src="images/project-banner14.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner8.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+			<!--Article 9-->
 			<article>
-				<img src="images/project-banner15.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner9.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+			<!--Article 10-->
 			<article>
-				<img src="images/project-banner16.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner10.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
+						</section>
+					</div>
+				</section>
+			</article>
+
+			<!--Article 11-->
+			<article>
+				<a href="detail.html"><img src="images/project-banner11.jpg" alt="Product banner" /></a>
+
+				<section class="textprofile">
+
+					<div class="image-name">
+						<img src="images/profile.jpg" alt="profile picture">
+						<h5>Fan Share Canvases</h5>
+					</div>
+
+					<div class="heart-eye">
+						<section class="heart">
+							<i class="fas fa-heart"></i>
+							<h5>77</h5>
+						</section>
+
+						<section class="views">
+							<i class="fas fa-eye"></i>
+							<h5>6.9K</h5>
+						</section>
+					</div>
+				</section>
+			</article>
+
+			<!--Article 12-->
+			<article>
+				<a href="detail.html"><img src="images/project-banner12.jpg" alt="Product banner" /></a>
+
+				<section class="textprofile">
+
+					<div class="image-name">
+						<img src="images/profile.jpg" alt="profile picture">
+						<h5>Fan Share Canvases</h5>
+					</div>
+
+					<div class="heart-eye">
+						<section class="heart">
+							<i class="fas fa-heart"></i>
+							<h5>77</h5>
+						</section>
+
+						<section class="views">
+							<i class="fas fa-eye"></i>
+							<h5>6.9K</h5>
+						</section>
+					</div>
+				</section>
+			</article>
+
+			<!--Article 13-->
+			<article>
+				<a href="detail.html"><img src="images/project-banner13.jpg" alt="Product banner" /></a>
+
+				<section class="textprofile">
+
+					<div class="image-name">
+						<img src="images/profile.jpg" alt="profile picture">
+						<h5>Fan Share Canvases</h5>
+					</div>
+
+					<div class="heart-eye">
+						<section class="heart">
+							<i class="fas fa-heart"></i>
+							<h5>77</h5>
+						</section>
+
+						<section class="views">
+							<i class="fas fa-eye"></i>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
 
-			<!--Article 1-->
+			<!--Article 14-->
 			<article>
-				<img src="images/project-banner17.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner14.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+			<!--Article 15-->
 			<article>
-				<img src="images/project-banner18.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner15.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+			<!--Article 16-->
 			<article>
-				<img src="images/project-banner19.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner16.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
 			</article>
 
-			<!--Article 1-->
+
+			<!--Article 17-->
 			<article>
-				<img src="images/project-banner20.jpg" alt="Product banner" />
+				<a href="detail.html"><img src="images/project-banner17.jpg" alt="Product banner" /></a>
 
 				<section class="textprofile">
 
 					<div class="image-name">
 						<img src="images/profile.jpg" alt="profile picture">
-						<h3>Fan Share Canvases</h3>
+						<h5>Fan Share Canvases</h5>
 					</div>
 
 					<div class="heart-eye">
 						<section class="heart">
 							<i class="fas fa-heart"></i>
-							<h3>77</h3>
+							<h5>77</h5>
 						</section>
 
 						<section class="views">
 							<i class="fas fa-eye"></i>
-							<h3>6.9K</h3>
+							<h5>6.9K</h5>
+						</section>
+					</div>
+				</section>
+			</article>
+
+			<!--Article 18-->
+			<article>
+				<a href="detail.html"><img src="images/project-banner18.jpg" alt="Product banner" /></a>
+
+				<section class="textprofile">
+
+					<div class="image-name">
+						<img src="images/profile.jpg" alt="profile picture">
+						<h5>Fan Share Canvases</h5>
+					</div>
+
+					<div class="heart-eye">
+						<section class="heart">
+							<i class="fas fa-heart"></i>
+							<h5>77</h5>
+						</section>
+
+						<section class="views">
+							<i class="fas fa-eye"></i>
+							<h5>6.9K</h5>
+						</section>
+					</div>
+				</section>
+			</article>
+
+			<!--Article 19-->
+			<article>
+				<a href="detail.html"><img src="images/project-banner19.jpg" alt="Product banner" /></a>
+
+				<section class="textprofile">
+
+					<div class="image-name">
+						<img src="images/profile.jpg" alt="profile picture">
+						<h5>Fan Share Canvases</h5>
+					</div>
+
+					<div class="heart-eye">
+						<section class="heart">
+							<i class="fas fa-heart"></i>
+							<h5>77</h5>
+						</section>
+
+						<section class="views">
+							<i class="fas fa-eye"></i>
+							<h5>6.9K</h5>
+						</section>
+					</div>
+				</section>
+			</article>
+
+			<!--Article 20-->
+			<article>
+				<a href="detail.html"><img src="images/project-banner20.jpg" alt="Product banner" /></a>
+
+				<section class="textprofile">
+
+					<div class="image-name">
+						<img src="images/profile.jpg" alt="profile picture">
+						<h5>Fan Share Canvases</h5>
+					</div>
+
+					<div class="heart-eye">
+						<section class="heart">
+							<i class="fas fa-heart"></i>
+							<h5>77</h5>
+						</section>
+
+						<section class="views">
+							<i class="fas fa-eye"></i>
+							<h5>6.9K</h5>
 						</section>
 					</div>
 				</section>
@@ -583,29 +602,62 @@
 
 	</main>
 	<footer>
-		<div>
-			<ul>
-			<li><p>Inspiration</p></li>
-			<li><a href="#">Find Work</a></li>
-			<li><a href="#">Learn Design</a></li>
-			<li><a href="#">Go Pro</a></li>
-			<li><a href="#">Market Place</a></li>
-			<li><a href="#">Hire Designers</a></li>
-			</ul>
+		<div class="rows">
+			<section>
+				<img src="images/logo.svg" alt="logo" />
+				<p>Dribbble is the world’s leading community for creatives to share, grow, and get hired.</p>
+				<div class="footer-socials">
+					<a href="https://dribbble.com"><i class="fab fa-dribbble"></i></a>
+					<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+					<a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
+					<a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+					<a href="https://pinterest.com"><i class="fab fa-pinterest"></i></a>
+				</div>
+			</section>
+
+
+
+			<div class="footerlists">
+				<ul>
+					<li class="title">
+						<p><strong>For designers</strong></p>
+					</li>
+					<li><a href="#">Go Pro!</a></li>
+					<li><a href="#">Explore design work</a></li>
+					<li><a href="#">Design blog</a></li>
+					<li><a href="#">Overtime podcast</a></li>
+					<li><a href="#">Dribbble meetups</a></li>
+					<li><a href="#">Playoffs</a></li>
+					<li><a href="#">Weekly Warm-Up</a></li>
+					<li><a href="#">Code of conduct</a></li>
+				</ul>
+
+
+
+				<ul>
+					<li class="title">
+						<p><strong>Hire designers</strong></p>
+					</li>
+					<li><a href="#">Post a job opening</a></li>
+					<li><a href="#">Post a freelance project</a></li>
+					<li><a href="#">Search for designers</a></li>
+				</ul>
+
+			</div>
+		</div>
+		<hr>
+		<div class="allrights">
+
+			<p>© 2022 Dribbble. All rights reserved.</p>
+			<p>18,649,488 shots dribbbled <i class="fab fa-dribbble"></i></p>
 		</div>
 
-		<div>
-			<ul>
-			<li><p>Inspiration</p></li>
-			<li><a href="#">Find Work</a></li>
-			<li><a href="#">Learn Design</a></li>
-			<li><a href="#">Go Pro</a></li>
-			<li><a href="#">Market Place</a></li>
-			<li><a href="#">Hire Designers</a></li>
-			</ul>
-		</div>
+
+
 
 	</footer>
 </body>
 
 </html>
+
+<script src="scripts/script.js"></script>
