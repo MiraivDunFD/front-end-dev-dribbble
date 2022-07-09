@@ -7,83 +7,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Spotify for Artists Fan Study Pitch; Concept style-frame No. 2</title>
-    <script src="script.js"></script>
 
     <!-- link naar css & font awesome voor hamburger menu icon -->
     <link href="styles/style.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/all.min.css">
-
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-
 </head>
 
 <body>
-
-    <!-- HEADER represents introductory content, typically a group of introductory or navigational aids. 
-	It may contain some heading elements but also a logo, a search form, an author name, and other elements. -->
     <header class="detail-intro">
-		<!--Tweede nav bar!!!!!!!!!--------------------------------------------------->
-		
-		<nav class="navbar">
-			<a href="index.html"><img src="images/logo.svg" alt="logo" /></a>
+        <!----------------------Primary menubalk--------------------------------->
+        <nav class="navbar">
+            <a href="index.html"><img src="images/logo.svg" alt="logo" /></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inspiration</a>
+                    <a href="index.html" class="nav-link">Find Work</a>
+                    <a href="index.html" class="nav-link">Learn Design</a>
+                    <a href="index.html" class="nav-link">Go Pro</a>
+                    <a href="index.html" class="nav-link">Market Place</a>
+                    <a href="index.html" class="nav-link">Hire Designers</a>
+                </li>
+            </ul>
+            <!----Hamburger menu icoon (3 losse streepjes)---->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
 
-			<ul class="nav-menu">
-			<li class="nav-item">
-				<a href="index.html" class="nav-link">Inspiration</a>
-				<a href="index.html" class="nav-link">Find Work</a>
-				<a href="index.html" class="nav-link">Learn Design</a>
-				<a href="index.html" class="nav-link">Go Pro</a>
-				<a href="index.html" class="nav-link">Market Place</a>
-				<a href="index.html" class="nav-link">Hire Designers</a>
-			</li>
-			</ul>
-			
-			<div class="hamburger">
-				<span class="bar"></span>
-				<span class="bar"></span>
-				<span class="bar"></span>
-			</div>
-			
-		
-		</nav>
-
-    
+        <!----Stukje spacing zodat alle content pas onder de menubalk begint---->
         <div class="spacer"></div>
-<!-------------------------------- Titel, profile icon, naam ----------------------------------->
-<div class="title-image">
-        <div class="header-detail">
-            <h2>Spotify for Artists Fan Study Pitch; Concept style-frame No. 2</h2>
-            <div class="profile-image-detail">
-                <img src="images/profile.jpg" alt="author-image">
-                <div class="text-only">
-                    <a href="https://dribbble.com/letsgorally">
-                        <h5>Ben Cline</h5>
-                    </a>
-                    <h5 class="grey-for">for</h5> <a href="https://dribbble.com/rally">
-                        <h5>RALLY</h5>
-                    </a>
+
+        <!-------------------------------- Titel, profile icon, naam ----------------------------------->
+        <div class="title-image">
+            <div class="header-detail">
+                <h2>Spotify for Artists Fan Study Pitch; Concept style-frame No. 2</h2>
+                <div class="profile-image-detail">
+                    <img src="images/profile.jpg" alt="author-image">
+                    <div class="text-only">
+                        <a href="https://dribbble.com/letsgorally">
+                            <h5>Ben Cline</h5>
+                        </a>
+                        <h5 class="grey-for">for</h5> <a href="https://dribbble.com/rally">
+                            <h5>RALLY</h5>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-
-        <!----------------- Product foto + ondertitel ----------------->
-        <figure>
-            <img src="images/project-banner.jpg" alt="project-image-detail">
-            <figcaption>Landing page (campagne)</figcaption>
-        </figure>
+            <!----------------- Product foto + ondertitel ----------------->
+            <figure>
+                <img src="images/project-banner.jpg" alt="project-image-detail">
+                <figcaption>Landing page (campagne)</figcaption>
+            </figure>
         </div>
     </header>
 
-
-
-
-
-
-    <!-- MAIN represents the dominant content of the body of a document. The main content area consists of content 
-        that is directly related to or expands upon the central topic of a document, or the central 
-        functionality of an application. -->
-        <main class="detail-content">
+    <!------------------ Hier begint de main waarin de belangrijkste content in staat (waar het om gaat) ------------------>
+    <main class="detail-content">
         <h3>By now, hopefully you’ve seen one of Rally’s latest launches for Spotify: <a
                 href="https://fanstudy.byspotify.com">https://fanstudy.byspotify.com/</a></h3>
         <h3>The team did an absolutely incredible job designing and building this lovely site.</h3>
@@ -121,57 +104,42 @@
                 writes the rest out.
             </li>
             <li>Detail pages reveal insight as well as associated (when needed) 3D illustration + motion. 3D
-                illustration
-                pops up through the background layer.
+                illustration pops up through the background layer.
             </li>
 
             <li>User can stay in the detail view to scroll through the rest of the experience if they choose, or back
-                out to
-                the grid.
+                out to the grid.
             </li>
         </ul>
+    </main>
 
-<aside>
+    <!------------------ Projecten die door hetzelfde bedrijf zijn gegaan (dit is content die indirect met de main content te maken heeft)------------------>
+    <aside>
         <div class="rally-end">
-
             <img src="images/rally_logo.jpg" alt="logo-rally">
-
             <h2>RALLY</h2>
             <p>A Digital Design & Development Agency</p>
-            
         </div>
 
         <div>
             <hr>
             <h3>More by RALLY</h3>
-            
         </div>
 
-        <!--Alle artikelen staan in deze section!-->
+        <!------------------------------Meer projecten door bedrijf------------------------------->
         <div class="more-by-rally">
             <!--project 1-->
-            
-                <a href="detail.html"><img src="images/project-banner.jpg" alt="Product banner" /></a>
-           
+            <a href="detail.html"><img src="images/project-banner.jpg" alt="Product banner" /></a>
 
             <!--project 2-->
-            
-                <a href="detail.html"><img src="images/project-banner2.jpg" alt="Product banner" /></a>
-
-                
-            
-
+            <a href="detail.html"><img src="images/project-banner2.jpg" alt="Product banner" /></a>
 
             <!--project 3-->
-                <a href="detail.html"><img src="images/project-banner3.jpg" alt="Product banner" /></a>
-            
-
+            <a href="detail.html"><img src="images/project-banner3.jpg" alt="Product banner" /></a>
         </div>
     </aside>
-  
 
-    </main>
-
+    <!--------------------------------------Footer ruimte------------------------------------------>
     <footer>
         <div class="rows">
             <section>
@@ -185,8 +153,6 @@
                     <a href="https://pinterest.com"><i class="fab fa-pinterest"></i></a>
                 </div>
             </section>
-
-
 
             <div class="footerlists">
                 <ul>
@@ -203,8 +169,6 @@
                     <li><a href="#">Code of conduct</a></li>
                 </ul>
 
-
-
                 <ul>
                     <li class="title">
                         <p><strong>Hire designers</strong></p>
@@ -213,7 +177,6 @@
                     <li><a href="#">Post a freelance project</a></li>
                     <li><a href="#">Search for designers</a></li>
                 </ul>
-
             </div>
         </div>
         <hr>
@@ -222,14 +185,11 @@
             <p>© 2022 Dribbble. All rights reserved.</p>
             <p>18,649,488 shots dribbbled <i class="fab fa-dribbble"></i></p>
         </div>
-
-
-
-
     </footer>
-
 
 </body>
 
 </html>
+
+<!-------------------Javascript link hier ---------------------->
 <script src="scripts/script.js"></script>

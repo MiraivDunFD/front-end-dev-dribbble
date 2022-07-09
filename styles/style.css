@@ -5,23 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
-
   background-color: white;
   margin: 0;
   padding: 0;
 }
-
-
-
-
-
-/*----------------------hero section----------------------- */
-#hero-image-text {
-  padding: 1.5em;
-
-  background-color: #EFF7FF;
-}
-
 
 /*----------------------Font usage----------------------- */
 h1,
@@ -66,16 +53,11 @@ li {
   line-height: 1.6em;
 }
 
-
-
-
-
 a {
   font-family: poppins;
   text-decoration: none;
   font: 18px;
 }
-
 
 a:link {
   color: black;
@@ -90,20 +72,24 @@ a:hover {
 }
 
 a:active {
-  color: green;
+  text-decoration: underline;
+}
 
+a:focus {
+  font-weight: 600;
+  color: #ff006e;
 }
 
 
+
 /*----------------------navigation bar----------------------- */
-
-
 nav ul {
   list-style: none;
 }
 
-.spacer{
-height: 4em;
+/*----spacing voor onder nav bar (alle content begint pas onder de menubalk---- */
+.spacer {
+  height: 4em;
 }
 
 nav img {
@@ -112,11 +98,11 @@ nav img {
 }
 
 /*----------------------hamburger css animatie----------------------- */
-.navbar{
+.navbar {
   width: 100%;
   position: fixed;
   height: 4em;
-background-color: white;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -124,71 +110,62 @@ background-color: white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-
-.bar{
+.bar {
   display: block;
   width: 25px;
   height: 3px;
-  margin:5px auto;
+  margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #ff006e;
 }
 
-.hamburger{
+.hamburger {
   padding: 0 2em 0 0;
   display: block;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 /*----------------------aanspreken van second child uit hamburger class (2e streepje gaat verdwijnen)----------------------- */
-.hamburger.active .bar:nth-child(2){
-opacity: 0;
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
 }
 
-.hamburger.active .bar:nth-child(1){
-  transform: translateY(8px) rotate(45deg); 
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
 }
 
-.hamburger.active .bar:nth-child(3){
-  transform: translateY(-8px) rotate(-45deg); 
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
-.nav-menu{
+.nav-menu {
   position: fixed;
-  left:-150%;
+  left: -150%;
   top: 4em;
   gap: 0;
   flex-direction: column;
-
   width: 100%;
- 
   text-align: center;
   transition: 0.3s;
+  background-color: white;
 }
 
-.nav-item{
-display: flex;
-flex-direction: column;
-gap: 2em;
-padding: 4em 2em 4em 2em;
-justify-content: center;
-
-
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 4em 2em 4em 2em;
+  justify-content: center;
 }
 
-.nav-menu.active{
-
+.nav-menu.active {
   left: 0;
   margin: 0;
   padding: 0;
-
- 
 }
 
-
-
-/*----------------------buttons----------------------- */
+/*----------------------button (en opmaak van alle states)----------------------- */
 button {
   font-family: poppins;
   background-color: #ff006e;
@@ -203,21 +180,15 @@ button {
   margin-bottom: 2em;
 }
 
-button:hover{
+button:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-button:active{
+button:active {
   box-shadow: inset 0 0 30px #a80049;
 }
 
-button:focus{
-  border: 1px;
-  
-  
-}
-
-/*----------------------Little notice begin screen----------------------- */
+/*----------------------Notice begin van scherm----------------------- */
 #notice-content {
   display: flex;
   flex-direction: row;
@@ -238,21 +209,11 @@ button:focus{
   text-align: center;
 }
 
-
-/*----------------------Detail header specs----------------------- */
-
-
-.header-detail {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  margin: 1.5em;
-  max-width: 50em;
+/*----------------------hero section----------------------- */
+#hero-image-text {
+  padding: 1.5em;
+  background-color: #EFF7FF;
 }
-
-
-
-/*----------------------Hero section specifics----------------------- */
 
 #hero-image-text img {
   max-width: 100%;
@@ -261,17 +222,24 @@ button:focus{
   margin-right: auto;
 }
 
-
 .herotext img {
   max-width: 100%;
 }
-
 
 .herotext {
   margin-left: auto;
   margin-right: auto;
   max-width: 35em;
   text-align: center;
+}
+
+/*----------------------Detail page header specs----------------------- */
+.header-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 1.5em;
+  max-width: 50em;
 }
 
 /*----------------------secundairy menu----------------------- */
@@ -282,7 +250,6 @@ button:focus{
   background-color: white;
   padding: 1em;
   box-shadow: none;
-
 }
 
 .secundairymenu {
@@ -307,28 +274,18 @@ button:focus{
   font-family: Open Sans, sans-serif;
 }
 
-/*----------------------button state----------------------- */
-.active {
-  background-color: white;
-  color: black;
-}
-
-/*----------------------ARTRICLE SECTION HERE!----------------------- */
+/*----------------------Article / all projects ----------------------- */
 .articles {
   margin: 2em;
   margin-top: 0;
   display: flex;
   flex-direction: column;
-
   align-items: center;
   gap: 2em;
-
-
 }
 
 article {
   max-width: 30em;
-
 }
 
 img {
@@ -341,7 +298,8 @@ img {
   flex-direction: row;
   justify-content: space-between;
   column-gap: 1em;
-
+  background-color: white;
+  padding: 0;
 }
 
 .textprofile img {
@@ -363,14 +321,13 @@ img {
   padding: 0em 0.5em 0em 0.5em;
 }
 
-
+/*----------------------icons----------------------- */
 .heart {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.3em;
   color: grey;
-
 }
 
 .views {
@@ -381,7 +338,7 @@ img {
   color: grey;
 }
 
-/*----------------------profile image detail info----------------------- */
+/*----------------------Detail page> profile image----------------------- */
 .text-only {
   display: flex;
   flex-direction: row;
@@ -391,8 +348,6 @@ img {
 .grey-for {
   color: grey;
 }
-
-
 
 .profile-image-detail {
   display: flex;
@@ -405,26 +360,23 @@ img {
   max-width: 2em;
 }
 
-.title-image{
+.title-image {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 100%;
 }
 
-/*----------------------figure & fig cap----------------------- */
+/*----------------------Detail page> grote afbeelding & onderschrift----------------------- */
 figure {
   display: flex;
   flex-direction: column;
   align-items: end;
-max-width: 50em;
-margin: 0;
+  max-width: 50em;
+  margin: 0;
 }
 
-
-
-
-figcaption{
+figcaption {
   font-family: Open Sans, sans-serif;
   font-size: 12px;
   color: grey;
@@ -432,17 +384,15 @@ figcaption{
   text-align: right;
 }
 
-.detail-content{
+.detail-content {
   display: flex;
   flex-direction: column;
- padding: 0 1.5em 1.5em 1.5em;
- max-width: 50em;
-margin: auto;
-
-
+  padding: 0 1.5em 1.5em 1.5em;
+  max-width: 50em;
+  margin: auto;
 }
 
-.bullets{
+.bullets {
   padding: 2.5em;
   background-color: white;
   margin: 0;
@@ -450,7 +400,7 @@ margin: auto;
   border-radius: 0.5em;
 }
 
-.bullets li{
+.bullets li {
   padding-top: 1em;
 }
 
@@ -458,47 +408,45 @@ margin: auto;
   margin: 0;
 }
 
-/*----------------------rally end detail----------------------- */
-.rally-end{
-text-align: center;
-margin: 4em 0 4em 0;
+/*----------------------Detail page> rally agency----------------------- */
+aside {
+  margin: 1.5em;
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.rally-end h2{
-margin: 1em 0 0 0;
+.rally-end {
+  text-align: center;
+  margin: 4em 0 4em 0;
 }
 
-.rally-end p{
+.rally-end h2 {
+  margin: 1em 0 0 0;
+}
+
+.rally-end p {
   color: grey;
   margin: 0;
 }
 
-
-
-.rally-end img{
+.rally-end img {
   border-radius: 100%;
   max-width: 5em;
 }
 
-.more-by-rally{
-
+.more-by-rally {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
-
-  
-
+  padding: 0 0 2em 0;
 }
 
-.more-by-rally img{
-
-  margin-bottom: 2em;
-
+.more-by-rally img {
+  margin: 0 0 1.5em 0;
 }
 
-
-/*----------------------footer----------------------- */
+/*----------------------Footer----------------------- */
 footer {
   background-color: #F2F2F2;
   padding: 2em;
@@ -513,7 +461,6 @@ footer ul {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 4em;
-
 }
 
 footer section {
@@ -531,13 +478,11 @@ footer a {
 
 footer img {
   max-width: 8em;
-
 }
 
 .footerlists {
   display: flex;
   flex-direction: row;
-
   justify-content: flex-start;
   gap: 6em;
 }
@@ -567,44 +512,34 @@ footer a {
   display: flex;
   justify-content: space-between;
   gap: 4em;
-
   color: grey;
 }
 
-
-
-
 /*----------------------Screen sizes 1000 px & up----------------------- */
-
 @media(min-width:1000px) {
-  .hamburger{
+  .hamburger {
     display: none;
- 
   }
 
-/*----------------------navigation bar----------------------- */
-
-.navbar{
-  display: flex;
-  flex-direction: row;
-
-}
-
-.nav-menu{
-  display: contents;
-  position: fixed;
-  flex-direction:row;
-
-}
-
-.nav-item{
-  display: flex;
-  flex-direction: row;
-  gap: 1.5em;
-  padding-right: 2em;
-  justify-content: center;
+  /*----------------------navigation bar----------------------- */
+  .navbar {
+    display: flex;
+    flex-direction: row;
   }
 
+  .nav-menu {
+    display: contents;
+    position: fixed;
+    flex-direction: row;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    padding-right: 2em;
+    justify-content: center;
+  }
 
   /*----------Hero section specifics------------ */
   #hero-image-text {
@@ -622,8 +557,7 @@ footer a {
     padding: 2em;
   }
 
-  /*----------Article section------------ */
-
+  /*----------Projects section------------ */
   .articles {
     margin: 2em;
     margin-top: 0;
@@ -639,22 +573,20 @@ footer a {
 
   footer {
     padding: 2em 6em 2em 6em;
-
   }
 
   /*----------------------------------detail page------------------------------------ */
-  .more-by-rally{
-flex-direction: row;
-justify-content: space-between;
-
-  
+  .more-by-rally {
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
   }
 
-  .more-by-rally img{
-    max-width: 15em;
+  .more-by-rally img {
+    max-width: auto;
+    max-height: 20em;
 
-        }
-
+  }
 }
 
 /*----------------------Screen sizes 1300 px & up----------------------- */
@@ -667,17 +599,14 @@ justify-content: space-between;
   #hero-image-text {
     display: flex;
     justify-content: center;
-
   }
 
   .herotext {
     margin: 0;
   }
 
-
   #hero-image-text img {
     margin: 1em;
-
   }
 
   /*----------Article section------------ */
@@ -687,10 +616,5 @@ justify-content: space-between;
 
   footer {
     padding: 2em 9em 2em 9em;
-
   }
-
-
-
-
 }
