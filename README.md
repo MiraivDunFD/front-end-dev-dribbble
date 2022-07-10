@@ -1,12 +1,9 @@
 # Procesverslag
 Dit document geldt als het procesverslag waarin details zijn verwerkt over het proces die ik heb afgelegd tijdens het opzetten van de website (de opdracht).
 
-## Mijn website
+## De opdracht
 
-<details open>
-<summary>Details over de opdracht</summary>
-
-### De opdracht:
+### Details
 **Dribbble.com** ga ik grote lijnen namaken.
 Voor de opdracht ga ik focus leggen op de weergavelijst van projecten op de homepagina. 
 Hierbij zal ik gebruikmaken van;
@@ -26,7 +23,6 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 
 ![This is an image](images/logboek/mobile/detail.png)
 <sub>Detail page</sub>
-
 </details>
 
 <details>
@@ -47,40 +43,42 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 
 ![This is an image](images/logboek/desktop/detail.png)
 <sub>Detail page</sub>
-
 </details>
 
 ## Toegankelijkheidstest
 
-<details>
-<summary>uitwerken na test</summary>
-
-### Bevindingen
+### Alle bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+1. hier komt bevinding
+2. jjjj
+3. jkjkj
+4. jjkjk
+
+<details open>
+<summary>Bevinding 1</summary>
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+</details>
 
-
-#### Titel tweede bevinding.
+#### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+</details>
 
-
-#### Titel volgende bevinding.
+#### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+</details>
 
-
-#### Titel nog een bevinding.
+#### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
 </details>
 
 ## Eindgesprek
