@@ -48,18 +48,15 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 ## Toegankelijkheidstest
 
 ### Alle bevindingen
-1. hier komt bevinding
-2. jjjj
-3. jkjkj
-4. jjkjk
+1. Makkelijkste om 'mobile-first' te developen en daarna pas desktop.
+2. Ik gebruikte de section attribuut verkeerd (semantics)
+3. Netheid van css en html file nog niet inorde met notities (readability).
 
 <details>
-<summary>Bevinding 1</summary>
+<summary>'Mobile-first'</summary>
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Ik ben compleet opnieuw begonnen doordat ik de fout had gemaakt om eerst voor het grootste scherm te gaan developen.
+Het lukte me na heel veel proberen en pielen op de code niet meer om op een fijne manier alle breakpoint designs door te kunnen voeren op de css. Hierdoor heb ik een verse start gemaakt. Hiervoor ben ik direct begonnen met het eerst opzetten van de mobiele pagina.
 
 </details>
 
