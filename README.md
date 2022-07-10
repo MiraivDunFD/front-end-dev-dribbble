@@ -144,6 +144,10 @@ Dit heb ik opgelost door veel notities toe te voegen bij de verschillende elemen
 ## Bronnenlijst
 Hieronder het lijstje met alle bronnen die gebruikt zijn ter inspiratie voor de oplevering.
 
+### Website content
+Alle content binnen mijn website is overgenomen vanuit de huidige site: 
+- [Dribbble - the home to the world's best design and creative professionals](https://dribbble.com).
+
 ### Projecten weergave
 Voor het indelen van de projecten op de homepagina met juiste breakpoint design.
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
