@@ -21,18 +21,32 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 <details open>
 <summary>Mobile</summary>
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
-
-![This is an image](images/logboek/dribbble1.png)
-
-<img src="images/lokboek/dribbble1.png" alt=image-hier>
-
+![This is an image](images/logboek/mobile/home.png)
 <sub>Homepage</sub>
 
-<img src="images/logboek/dribbble1.png" width="375px" alt="mobile-homescherm-dribbble">
+![This is an image](images/logboek/mobile/detail.png)
+<sub>Detail page</sub>
+
+</details>
+
+<details open>
+<summary>Tablet</summary>
+
+![This is an image](images/logboek/tablet/home.png)
 <sub>Homepage</sub>
 
+![This is an image](images/logboek/tablet/detail.png)
+<sub>Detail page</sub>
 
+
+<details open>
+<summary>Desktop</summary>
+
+![This is an image](images/logboek/desktop/home.png)
+<sub>Homepage</sub>
+
+![This is an image](images/logboek/desktop/detail.png)
+<sub>Detail page</sub>
 
 </details>
 
