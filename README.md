@@ -22,6 +22,7 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 <summary>Mobile</summary>
 
 ![mobile-home-dribble](images/logboek/dribbble1.png)
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 <sub>Homepage</sub>
 
 <img src="images/logboek/dribbble1.png" width="375px" alt="mobile-homescherm-dribbble">
