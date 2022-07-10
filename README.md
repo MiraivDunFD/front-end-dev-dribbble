@@ -56,7 +56,9 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 <summary>'Mobile-first'</summary>
 
 #### Ik ben compleet opnieuw begonnen doordat ik de fout had gemaakt om eerst voor het grootste scherm te gaan developen.
-Het lukte me na heel veel proberen en pielen op de code niet meer om op een fijne manier alle breakpoint designs door te kunnen voeren op de css. Hierdoor heb ik een verse start gemaakt. Hiervoor ben ik direct begonnen met het eerst opzetten van de mobiele pagina. Dit ging dan ook echt veel sneller en makkelijker dan de vorige aanpak!
+Het lukte me na heel veel proberen en pielen op de code niet meer om op een fijne manier alle breakpoint designs door te kunnen voeren op de css. 
+  
+Hiervoor heb ik een verse start gemaakt. Ik ben direct begonnen met het eerst opzetten van de mobiele pagina. Dit ging dan ook echt veel sneller en makkelijker dan de vorige aanpak!
 
 </details>
 
@@ -64,7 +66,9 @@ Het lukte me na heel veel proberen en pielen op de code niet meer om op een fijn
 <summary>'Section' tag & semantiek</summary>
 
 #### Het overmatige gebruik van de 'section' was niet nodig en daarbij ook incorrect. 
-Om goed te begrijpen waar 'section' gebruikt voor mag worden, heb ik via een bron goed ingelezen waar het voor staat. Het is mij duidelijk geworden dat een section een gedeelte van een document definieerd (zoals bijv. een hoodstuk of sub kopje van een tekst). Ik heb deze fout snel opgelost door meer in te lezen over de semantiek van html (zie bron in bronnenlijst onder in de pagina) en heb veel section tags naar div tags kunnen veranderen (geldt alleen voor placeholders puur voor styling en positionering).
+Om goed te begrijpen waar 'section' gebruikt voor mag worden, heb ik via een bron goed ingelezen waar het voor staat. Het is mij duidelijk geworden dat een section een gedeelte van een document definieerd (zoals bijv. een hoodstuk of sub kopje van een tekst). 
+  
+Ik heb deze fout snel opgelost door meer in te lezen over de semantiek van html (zie bron in bronnenlijst onder in de pagina) en heb veel section tags naar div tags kunnen veranderen (geldt alleen voor placeholders puur voor styling en positionering).
   
 </details>
 
@@ -72,7 +76,9 @@ Om goed te begrijpen waar 'section' gebruikt voor mag worden, heb ik via een bro
 <summary>'Netheid HTML & CSS</summary>
 
 #### De HTML & CSS files waren een puinhoop.
-Toen ik eenmaal een scherp blik had geworpen op mijn code, merkte ik dat ik geen fijn overzicht had. De css selectoren stonden niet chronologisch geordend. Vele dingen zaten 'kris-kras' door elkaar heen. Daarnaast had ik bij de HTMl file nog geen notities (comments) geplaatst. Ik merkte dat het zoeken naar de juist code in de file lang duurde. Dit heb ik opgelost door veel notities toe te voegen bij de verschillende elementen in de HTMl file. Voor de css file heb ik nog meer notities toegevoegd en daarbij ook tekstjes die meer vertellen over de functionele waarde. Dit werkte ook erg goed voor de css animatie. Zo weet je direct hoe het in elkaar zit!
+Toen ik eenmaal een scherp blik had geworpen op mijn code, merkte ik dat ik geen fijn overzicht had. De css selectoren stonden niet chronologisch geordend. Vele dingen zaten 'kris-kras' door elkaar heen. Daarnaast had ik bij de HTMl file nog geen notities (comments) geplaatst. Ik merkte dat het zoeken naar de juist code in de file lang duurde. 
+  
+Dit heb ik opgelost door veel notities toe te voegen bij de verschillende elementen in de HTMl file. Voor de css file heb ik nog meer notities toegevoegd en daarbij ook tekstjes die meer vertellen over de functionele waarde. Dit werkte ook erg goed voor de css animatie. Zo weet je direct hoe het in elkaar zit!
   
 </details>
 
