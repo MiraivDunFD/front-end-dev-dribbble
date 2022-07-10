@@ -70,10 +70,17 @@ Om goed te begrijpen waar 'section' gebruikt voor mag worden, heb ik via een bro
 
 ## Eind reflectie
 
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+### Wat minder goed ging
+- lijstje
+- lijstje
+- lijstje
 
-### Screenshot(s)
+### Wat goed ging
+- lijstje
+- lijstje
+- lijstje
+
+### Screenrecordings
 
 <details>
 <summary>Mobile</summary>
