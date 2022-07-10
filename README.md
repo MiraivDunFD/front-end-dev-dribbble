@@ -111,6 +111,8 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 ![This is an image](images/logboek/oplevering/detail/mobiledetail.gif)
 <sub>Detail page</sub>
+
+[![Demo Doccou alpha](http://share.gifyoutube.com/KzB6Gb.gif)]
 </details>
 
 </details>
