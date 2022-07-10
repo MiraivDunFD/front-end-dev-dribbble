@@ -12,10 +12,12 @@ Voor de opdracht ga ik focus leggen op de weergavelijst van projecten op de home
 1. flexbox (voor diverse breakpoints).
 2. een css animatie zal verwerkt worden in een schaalbare menubalk.
 3. de css animatie zal geactiveerd worden door javascript code.
+
 Tot slot zal er een tweede pagina gemaakt worden, wat een detail pagina gaat vormen. De detail pagina is een opvolg pagina als de gebruiker op een van de projecten via de homepagina drukt.
 
 <details open>
 <summary>Screenshots van de huidige websit4e</summary>
+
 #### Screenshot: homepagina (mobile)>
 Dribbble Home
 <img src="images/logboek/dribbble1.png" width="375px" alt="mobile-homescherm-dribbble">
