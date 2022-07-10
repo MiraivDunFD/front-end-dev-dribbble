@@ -144,15 +144,25 @@ Dit heb ik opgelost door veel notities toe te voegen bij de verschillende elemen
 ## Bronnenlijst
 Hieronder het lijstje met alle bronnen die gebruikt zijn ter inspiratie voor de oplevering.
 
-<details>
-  <summary>Projecten weergave</summary>
-
 ### Projecten weergave
 Voor het indelen van de projecten op de homepagina met juiste breakpoint design.
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
-  </details>
+
+### Bijschroeven van Javascript kennis
+Om weer opnieuw in de wereld van Javascript te duiken.
+- [Boek: JavaScript & Jquery - Interactive Front-End Web Development - door Jon Duckett](https://www.bol.com/nl/nl/f/javascript-jquery/9200000008613527/)
 
 ### Schaalbare menu
 Het maken van de menubalk voor alle breakpoints.
-- youtube
+- [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript](https://www.youtube.com/watch?v=flItyHiDm7E&t=616s&ab_channel=codefoxx)
 
+### Juiste styling markdown (readme file)
+Om een fijn leesbaar procesverslag neer te zetten.
+- [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+Het implementeren van animated GIF files.
+- [Add GIFs to your GitHub Profile README](https://www.youtube.com/watch?v=3RlpVrYt_qE)
+
+### Semantiek
+Om de juiste tags te gebruiken met de correcte betekenis.
+- [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
