@@ -103,7 +103,7 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 <details>
 <summary>Mobile</summary>
 
-[![menu-mobile](https://share.gifyoutube.com/KzB6Gb.gif)]
+![menu-mobile](https://share.gifyoutube.com/KzB6Gb.gif)
 
 <sub>Menu</sub>
 
