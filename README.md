@@ -18,7 +18,7 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 
 ### Screenshots Dribbble
 
-<details open>
+<details>
 <summary>Mobile</summary>
 
 ![This is an image](images/logboek/mobile/home.png)
@@ -29,7 +29,7 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 
 </details>
 
-<details open>
+<details>
 <summary>Tablet</summary>
 
 ![This is an image](images/logboek/tablet/home.png)
@@ -37,9 +37,9 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 
 ![This is an image](images/logboek/tablet/detail.png)
 <sub>Detail page</sub>
+</details>
 
-
-<details open>
+<details>
 <summary>Desktop</summary>
 
 ![This is an image](images/logboek/desktop/home.png)
