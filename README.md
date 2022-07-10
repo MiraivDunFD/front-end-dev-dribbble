@@ -7,7 +7,7 @@ Dit document geldt als het procesverslag waarin details zijn verwerkt over het p
 <summary>De website van Dribbble</summary>
 
 ### De opdracht:
-Dribbble.com ga ik grote lijnen namaken.
+**Dribbble.com** ga ik grote lijnen namaken.
 Voor de opdracht ga ik focus leggen op de weergavelijst van projecten op de homepagina. Hierbij zal ik gebruikmaken van: 
 1. flexbox (voor diverse breakpoints).
 2. een css animatie zal verwerkt worden in een schaalbare menubalk.
