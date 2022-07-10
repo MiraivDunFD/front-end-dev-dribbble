@@ -61,10 +61,10 @@ Het lukte me na heel veel proberen en pielen op de code niet meer om op een fijn
 </details>
 
 <details>
-<summary>Section attribuut & semantiek</summary>
+<summary>'Section' tag & semantiek</summary>
 
-#### Het overmatige gebruik van de section attribuut is niet nodig en daarbij ook incorrect. 
-Om goed te begrijpen waar de attribuut 'section' gebruikt voor mag worden, heb ik via een bron goed ingelezen waar het voor staat. Het is mij duidelijk geworden dat een section alleen gebruikt mag worden bij
+#### Het overmatige gebruik van de 'section' was niet nodig en daarbij ook incorrect. 
+Om goed te begrijpen waar 'section' gebruikt voor mag worden, heb ik via een bron goed ingelezen waar het voor staat. Het is mij duidelijk geworden dat een section een gedeelte van een document definieerd (zoals bijv. een hoodstuk of sub kopje van een tekst). Ik heb deze fout snel opgelost door meer in te lezen over de semantiek van html (zie bron in bronnenlijst onder in de pagina) en heb veel section tags naar div tags kunnen veranderen (geldt alleen voor placeholders puur voor styling en positionering).
   
 </details>
 
