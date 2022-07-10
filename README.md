@@ -101,18 +101,17 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Screenshot(s)
 
 <details>
-<summary>Mobile</summary>
   
-![mobile-menu](https://user-images.githubusercontent.com/94361815/178156884-8fa144c5-6e8b-4a3d-99cd-0a14bace60bb.gif)
- 
+<summary>Mobile</summary>
+  ![mobile-menu](https://user-images.githubusercontent.com/94361815/178158282-40569eec-c21f-4bf5-9955-2be5e5253ef6.gif)
 <sub>Menu</sub>
 
 
-![mobile-menu](https://user-images.githubusercontent.com/94361815/178157298-f9861d48-ca76-4294-9987-1e1d84e852cd.gif)
 
+![mobile-home](https://user-images.githubusercontent.com/94361815/178158287-b0bf9d2b-34a9-4210-973a-29c7d3e23924.gif)
 <sub>Homepage</sub>
 
-[![This is an image](images/logboek/oplevering/detail/mobiledetail.gif)]
+  ![mobile-detail](https://user-images.githubusercontent.com/94361815/178158296-049bc107-9c48-4457-8177-17df72c75e53.gif)
 <sub>Detail page</sub>
 
 ![Demo Doccou alpha](http://share.gifyoutube.com/KzB6Gb.gif)
