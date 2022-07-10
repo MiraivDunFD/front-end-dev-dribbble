@@ -75,7 +75,7 @@ Ik heb deze fout snel opgelost door meer in te lezen over de semantiek van html 
 </details>
 
 <details>
-<summary>'Netheid HTML & CSS</summary>
+<summary>Netheid HTML & CSS</summary>
 
 #### De HTML & CSS files waren een puinhoop.
 Toen ik eenmaal een scherp blik had geworpen op mijn code, merkte ik dat ik geen fijn overzicht had. De css selectoren stonden niet chronologisch geordend. Vele dingen zaten 'kris-kras' door elkaar heen. Daarnaast had ik bij de HTMl file nog geen notities (comments) geplaatst. Ik merkte dat het zoeken naar de juist code in de file lang duurde. 
@@ -88,14 +88,14 @@ Dit heb ik opgelost door veel notities toe te voegen bij de verschillende elemen
 ## Eind reflectie
 
 ### Wat minder goed ging
-- lijstje
-- lijstje
-- lijstje
+- Van desktop naar mobile breakpoint (zoals aangegeven in de toegangkelijkheidstest).
+- Javascript schrijven, dit was weer even bijschroeven!
+- HTMl semantiek. Dit had ik eerder moeten opzoeken.
 
 ### Wat goed ging
-- lijstje
-- lijstje
-- lijstje
+- Van mobile naar desktop breakpoint ging zeer gemakkelijk en snel!
+- Flexbox gebruiken, dit ging heel soepel.
+- De juiste styling (fonts, kleuren, etc) aanbrengen met css.
 
 ### Screenrecordings
 
