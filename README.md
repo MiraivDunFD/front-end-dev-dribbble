@@ -18,7 +18,7 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 <details>
 <summary>Mobile</summary>
 
-![This is an image](images/logboek/mobile/home.png =250x250)
+![This is an image](images/logboek/mobile/home.png)
 <sub>Homepage</sub>
 
 ![This is an image](images/logboek/mobile/detail.png)
