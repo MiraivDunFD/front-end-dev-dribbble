@@ -48,46 +48,24 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 ## Toegankelijkheidstest
 
 ### Alle bevindingen
-1. Makkelijkste om 'mobile-first' te developen en daarna pas desktop.
-2. Ik gebruikte de section attribuut verkeerd (semantics)
-3. Netheid van css en html file nog niet inorde met notities (readability).
+1. Makkelijkste om **'mobile-first'** te developen en daarna pas desktop.
+2. Ik gebruikte de **section attribuut** verkeerd (semantics)
+3. **Netheid van css en html** file nog niet inorde met notities (readability).
 
 <details>
 <summary>'Mobile-first'</summary>
 
 #### Ik ben compleet opnieuw begonnen doordat ik de fout had gemaakt om eerst voor het grootste scherm te gaan developen.
-Het lukte me na heel veel proberen en pielen op de code niet meer om op een fijne manier alle breakpoint designs door te kunnen voeren op de css. Hierdoor heb ik een verse start gemaakt. Hiervoor ben ik direct begonnen met het eerst opzetten van de mobiele pagina.
+Het lukte me na heel veel proberen en pielen op de code niet meer om op een fijne manier alle breakpoint designs door te kunnen voeren op de css. Hierdoor heb ik een verse start gemaakt. Hiervoor ben ik direct begonnen met het eerst opzetten van de mobiele pagina. Dit ging dan ook echt veel sneller en makkelijker dan de vorige aanpak!
 
 </details>
 
 <details>
-<summary>Bevinding 1</summary>
+<summary>Section attribuut & semantiek</summary>
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-</details>
-
-<details>
-<summary>Bevinding 1</summary>
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-</details>
-
-<details>
-<summary>Bevinding 1</summary>
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+#### Het overmatige gebruik van de section attribuut is niet nodig en daarbij ook incorrect. 
+Om goed te begrijpen waar de attribuut 'section' gebruikt voor mag worden, heb ik via een bron goed ingelezen waar het voor staat. Het is mij duidelijk geworden dat een section alleen gebruikt mag worden bij
+  
 </details>
 
 ## Eind reflectie
