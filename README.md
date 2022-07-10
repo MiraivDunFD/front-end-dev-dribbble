@@ -58,6 +58,7 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 #### Ik ben compleet opnieuw begonnen doordat ik de fout had gemaakt om eerst voor het grootste scherm te gaan developen.
 Het lukte me na heel veel proberen en pielen op de code niet meer om op een fijne manier alle breakpoint designs door te kunnen voeren op de css. 
   
+##### Oplossing
 Hiervoor heb ik een verse start gemaakt. Ik ben direct begonnen met het eerst opzetten van de mobiele pagina. Dit ging dan ook echt veel sneller en makkelijker dan de vorige aanpak!
 
 </details>
