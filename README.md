@@ -18,30 +18,30 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 <details>
 <summary>Mobile</summary>
 
-![This is an image](images/logboek/mobile/home.png)
+![This is an image](images/logboek/mobile/home.jpg)
 <sub>Homepage</sub>
 
-![This is an image](images/logboek/mobile/detail.png)
+![This is an image](images/logboek/mobile/detail.jpg)
 <sub>Detail page</sub>
 </details>
 
 <details>
 <summary>Tablet</summary>
 
-![This is an image](images/logboek/tablet/home.png)
+![This is an image](images/logboek/tablet/home.jpg)
 <sub>Homepage</sub>
 
-![This is an image](images/logboek/tablet/detail.png)
+![This is an image](images/logboek/tablet/detail.jpg)
 <sub>Detail page</sub>
 </details>
 
 <details>
 <summary>Desktop</summary>
 
-![This is an image](images/logboek/desktop/home.png)
+![This is an image](images/logboek/desktop/home.jpg)
 <sub>Homepage</sub>
 
-![This is an image](images/logboek/desktop/detail.png)
+![This is an image](images/logboek/desktop/detail.jpg)
 <sub>Detail page</sub>
 </details>
 
