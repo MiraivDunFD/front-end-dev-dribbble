@@ -54,31 +54,44 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 3. jkjkj
 4. jjkjk
 
-<details open>
+<details>
 <summary>Bevinding 1</summary>
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
 </details>
+
+<details>
+<summary>Bevinding 1</summary>
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
 </details>
+
+<details>
+<summary>Bevinding 1</summary>
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
 </details>
+
+<details>
+<summary>Bevinding 1</summary>
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
 </details>
 
 ## Eindgesprek
