@@ -21,7 +21,7 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 <details open>
 <summary>Mobile</summary>
 
-![alt text](http://url/to/img.png)
+![mobile-home-dribble](images/logboek/dribbble1.png)
 <sub>Homepage</sub>
 
 <img src="images/logboek/dribbble1.png" width="375px" alt="mobile-homescherm-dribbble">
