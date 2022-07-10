@@ -4,19 +4,19 @@ Dit document geldt als het procesverslag waarin details zijn verwerkt over het p
 ## Mijn website
 
 <details open>
-<summary>De website van Dribbble</summary>
+<summary>Details over de opdracht</summary>
 
 ### De opdracht:
 **Dribbble.com** ga ik grote lijnen namaken.
 Voor de opdracht ga ik focus leggen op de weergavelijst van projecten op de homepagina. Hierbij zal ik gebruikmaken van: 
-1. flexbox (voor diverse breakpoints).
-2. een css animatie zal verwerkt worden in een schaalbare menubalk.
-3. de css animatie zal geactiveerd worden door javascript code.
+1. **flexbox** (voor diverse breakpoints).
+2. een **css animatie** zal verwerkt worden in een schaalbare menubalk.
+3. de css animatie zal geactiveerd worden door **javascript** code.
 
-Tot slot zal er een tweede pagina gemaakt worden, wat een detail pagina gaat vormen. De detail pagina is een opvolg pagina als de gebruiker op een van de projecten via de homepagina drukt.
+Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat vormen. De detail pagina is een opvolg pagina als de gebruiker op een van de projecten via de homepagina drukt.
 
 <details open>
-<summary>Screenshots van de huidige websit4e</summary>
+<summary>Screenshots van de huidige website</summary>
 
 #### Screenshot: homepagina (mobile)>
 Dribbble Home
