@@ -48,7 +48,6 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 ## Toegankelijkheidstest
 
 ### Alle bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
 1. hier komt bevinding
 2. jjjj
 3. jkjkj
@@ -94,19 +93,30 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 </details>
 
-## Eindgesprek
-
-<details>
-<summary>uitwerken voor eindgesprek</summary>
+## Eind reflectie
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<details>
+<summary>Mobile</summary>
+
+[![menu-mobile](https://share.gifyoutube.com/KzB6Gb.gif)]
+
+<sub>Menu</sub>
+
+![This is an image](images/logboek/oplevering/mobile/home.png)
+<sub>Homepage</sub>
+
+![This is an image](images/logboek/oplevering/detail/home.png)
+<sub>Detail page</sub>
+</details>
 
 </details>
+
+
 
 ## Bronnenlijst
 
