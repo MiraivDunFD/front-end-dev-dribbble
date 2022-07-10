@@ -102,7 +102,7 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 <details>
 <summary>Mobile</summary>
-  Screenrecording vanaf mijn iPhone.
+  #### Screenrecording vanaf mijn iPhone.
   
   ![mobile-menu](https://user-images.githubusercontent.com/94361815/178158282-40569eec-c21f-4bf5-9955-2be5e5253ef6.gif)
 <sub>Menu</sub>
@@ -130,7 +130,17 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 </details>
 
+<details>
+<summary>Tablet</summary>
+  Screenrecording vanaf mijn MacBook.
+  
+![desktop-home](https://user-images.githubusercontent.com/94361815/178158458-fc01308f-a543-438f-9020-11c4fd7ee044.gif)
+<sub>Homepage</sub>
 
+![desktop-detail](https://user-images.githubusercontent.com/94361815/178158467-a5283da9-8618-4aa1-9b62-512594b7aa3a.gif)
+<sub>Detail page</sub>
+
+</details>
 
 ## Bronnenlijst
 
