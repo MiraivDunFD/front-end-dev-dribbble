@@ -103,14 +103,13 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 <details>
 <summary>Mobile</summary>
 
-![menu-mobile](https://share.gifyoutube.com/KzB6Gb.gif)
-
+![This is an image](images/logboek/oplevering/mobile/mobile-menu.gif)
 <sub>Menu</sub>
 
-![This is an image](images/logboek/oplevering/mobile/home.png)
+![This is an image](images/logboek/oplevering/mobile/mobile-home.gif)
 <sub>Homepage</sub>
 
-![This is an image](images/logboek/oplevering/detail/home.png)
+![This is an image](images/logboek/oplevering/detail/mobiledetail.gif)
 <sub>Detail page</sub>
 </details>
 
