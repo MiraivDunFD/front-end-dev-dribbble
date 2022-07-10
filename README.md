@@ -102,16 +102,30 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 <details>
 <summary>Mobile</summary>
+  Screenrecording vanaf mijn iPhone.
   
   ![mobile-menu](https://user-images.githubusercontent.com/94361815/178158282-40569eec-c21f-4bf5-9955-2be5e5253ef6.gif)
 <sub>Menu</sub>
-
-
 
 ![mobile-home](https://user-images.githubusercontent.com/94361815/178158287-b0bf9d2b-34a9-4210-973a-29c7d3e23924.gif)
 <sub>Homepage</sub>
 
   ![mobile-detail](https://user-images.githubusercontent.com/94361815/178158296-049bc107-9c48-4457-8177-17df72c75e53.gif)
+<sub>Detail page</sub>
+
+</details>
+
+<details>
+<summary>Tablet</summary>
+  Screenrecording vanaf mijn ipad.
+  
+  ![tablet-menu](https://user-images.githubusercontent.com/94361815/178158375-fa99114d-a5d7-49b3-9f3d-9d0ffa37d881.gif)
+<sub>Menu</sub>
+  
+![tablet-home](https://user-images.githubusercontent.com/94361815/178158379-5fad8203-551b-4bf4-becb-d53c8b233047.gif)
+<sub>Homepage</sub>
+
+![tablet-detail](https://user-images.githubusercontent.com/94361815/178158389-95e82469-0108-4b34-8a00-f8a3e53ce105.gif)
 <sub>Detail page</sub>
 
 </details>
