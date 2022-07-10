@@ -113,7 +113,7 @@ Om goed te begrijpen waar 'section' gebruikt voor mag worden, heb ik via een bro
 </details>
 
 <details>
-<summary>Tablet</summary>
+<summary>Desktop</summary>
   Screenrecording vanaf mijn MacBook.
   
 ![desktop-home](https://user-images.githubusercontent.com/94361815/178158458-fc01308f-a543-438f-9020-11c4fd7ee044.gif)
@@ -125,14 +125,13 @@ Om goed te begrijpen waar 'section' gebruikt voor mag worden, heb ik via een bro
 </details>
 
 ## Bronnenlijst
+Hieronder het lijstje met alle bronnen die gebruikt zijn ter inspiratie voor de oplevering.
 
-<details open>
-<summary>continu bijhouden terwijl je werkt</summary>
+### Projecten weergave
+Het indelen van de projecten op de homepagina.
+- flexbox
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+### Schaalbare menu
+Het maken van de menubalk voor alle breakpoints.
+- youtube
 
-1. https://flaviocopes.com/javascript-async-defer/ voor Javascript in head te verwerken.
-2. https://codepen.io/joostf/pen/xEpmLx voor structuur volgorde css file
-3. ...
-
-</details>
