@@ -68,6 +68,14 @@ Om goed te begrijpen waar 'section' gebruikt voor mag worden, heb ik via een bro
   
 </details>
 
+<details>
+<summary>'Netheid HTML & CSS</summary>
+
+#### De HTML & CSS files waren een puinhoop.
+Toen ik eenmaal een scherp blik had geworpen op mijn code, merkte ik dat ik geen fijn overzicht had. De css selectoren stonden niet chronologisch geordend. Vele dingen zaten 'kris-kras' door elkaar heen. Daarnaast had ik bij de HTMl file nog geen notities (comments) geplaatst. Ik merkte dat het zoeken naar de juist code in de file lang duurde. Dit heb ik opgelost door veel notities toe te voegen bij de verschillende elementen in de HTMl file. Voor de css file heb ik nog meer notities toegevoegd en daarbij ook tekstjes die meer vertellen over de functionele waarde. Dit werkte ook erg goed voor de css animatie. Zo weet je direct hoe het in elkaar zit!
+  
+</details>
+
 ## Eind reflectie
 
 ### Wat minder goed ging
