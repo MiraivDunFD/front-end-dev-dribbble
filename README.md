@@ -1,27 +1,37 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Dit document geldt als het procesverslag waarin details zijn verwerkt over het proces die ik heb afgelegd tijdens het opzetten van de website (de opdracht).
 
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-## Je website
+## Mijn website
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>De website van Dribbble</summary>
 
-### Je opdracht:
-Dribbble.com ga ik namaken. Niet de volledige pagina. Ik ga focus leggen op de weergavelijst van projecten. En daarbij flexbox, css animatie te implementeren. De tweede pagina die ik ga uitwerken zal een detail pagina zijn van een item.
+### De opdracht:
+Dribbble.com ga ik grote lijnen namaken.
+Voor de opdracht ga ik focus leggen op de weergavelijst van projecten op de homepagina. Hierbij zal ik gebruikmaken van: 
+1. flexbox (voor diverse breakpoints).
+2. een css animatie zal verwerkt worden in een schaalbare menubalk.
+3. de css animatie zal geactiveerd worden door javascript code.
+Tot slot zal er een tweede pagina gemaakt worden, wat een detail pagina gaat vormen. De detail pagina is een opvolg pagina als de gebruiker op een van de projecten via de homepagina drukt.
 
-#### Screenshot(s) van de eerste pagina (small screen):
-Dribbble Home  
-<img src="images/logboek/dribbble1.jpg" width="375px" alt="omschrijving van de pagina">
+<details open>
+<summary>Screenshots van de huidige websit4e</summary>
+#### Screenshot: homepagina (mobile)>
+Dribbble Home
+<img src="images/logboek/dribbble1.png" width="375px" alt="mobile-homescherm-dribbble">
 
-#### Screenshot(s) van de tweede pagina (small screen):
-Dribbble detail case
-<img src="images/logboek/dribbble2.jpg" width="375px" alt="omschrijving van de pagina">
+#### Screenshot: detail pagina (mobile)>
+Dribbble detail
+<img src="images/logboek/dribbble1.png" width="375px" alt="mobile-homescherm-dribbble">
+
+#### Screenshot: homepagina (mobile)>
+Dribbble Home
+<img src="images/logboek/dribbble1.png" width="375px" alt="mobile-homescherm-dribbble">
+
+#### Screenshot: detail pagina (mobile)>
+Dribbble detail
+<img src="images/logboek/dribbble1.png" width="375px" alt="mobile-homescherm-dribbble">
+</details>
 
 </details>
 
