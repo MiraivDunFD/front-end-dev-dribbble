@@ -102,7 +102,7 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 <details>
 <summary>Mobile</summary>
-  #### Screenrecording vanaf mijn iPhone.
+  Screenrecording vanaf mijn iPhone.
   
   ![mobile-menu](https://user-images.githubusercontent.com/94361815/178158282-40569eec-c21f-4bf5-9955-2be5e5253ef6.gif)
 <sub>Menu</sub>
