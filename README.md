@@ -104,9 +104,12 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 <summary>Mobile</summary>
   
 ![mobile-menu](https://user-images.githubusercontent.com/94361815/178156884-8fa144c5-6e8b-4a3d-99cd-0a14bace60bb.gif)
+ 
 <sub>Menu</sub>
 
-![This is an image](images/logboek/oplevering/mobile/mobile-home.gif)
+
+![mobile-menu](https://user-images.githubusercontent.com/94361815/178157298-f9861d48-ca76-4294-9987-1e1d84e852cd.gif)
+
 <sub>Homepage</sub>
 
 [![This is an image](images/logboek/oplevering/detail/mobiledetail.gif)]
