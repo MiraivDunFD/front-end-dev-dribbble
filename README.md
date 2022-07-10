@@ -103,7 +103,8 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 <details>
 <summary>Mobile</summary>
 
-![This is an image](images/logboek/oplevering/mobile/mobile-menu.gif)
+![mobile-menu](https://user-images.githubusercontent.com/94361815/178156593-3c03b346-e841-4177-af4a-14e1bf3db563.gif)
+
 <sub>Menu</sub>
 
 ![This is an image](images/logboek/oplevering/mobile/mobile-home.gif)
