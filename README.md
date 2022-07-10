@@ -144,9 +144,13 @@ Dit heb ik opgelost door veel notities toe te voegen bij de verschillende elemen
 ## Bronnenlijst
 Hieronder het lijstje met alle bronnen die gebruikt zijn ter inspiratie voor de oplevering.
 
-### Projecten weergave
-Het indelen van de projecten op de homepagina.
-- flexbox
+<details>
+  <summary>Projecten weergave</summary>
+</details>
+
+  ### Projecten weergave
+Voor het indelen van de projecten op de homepagina met juiste breakpoint design.
+- This site was built using [GitHub Pages](https://pages.github.com/).
 
 ### Schaalbare menu
 Het maken van de menubalk voor alle breakpoints.
