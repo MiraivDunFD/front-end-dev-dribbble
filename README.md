@@ -23,7 +23,7 @@ Tot slot zal er een tweede pagina gemaakt worden, wat een **detail pagina** gaat
 
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
-![This is an image](images/logboek/dribbble1.png)
+![This is an image](/assets/images/logboek/dribbble1.png)
 
 <sub>Homepage</sub>
 
