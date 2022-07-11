@@ -110,20 +110,29 @@ nav img {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+/*----------elk streepje hamburger---------- */
+/* auto > left & right margin */
 .bar {
   display: block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
   background-color: #ff006e;
 }
 
+/*-----------hamburger icon placeholder---------- */
 .hamburger {
   padding: 0 2em 0 0;
   display: block;
   cursor: pointer;
+}
+
+/*----------animatie van 3 hamburger streepjes---------- */
+/*----------eerste streepje draait 45 graden naar rechts---------- */
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
 }
 
 /*----------------------aanspreken van second child uit hamburger class (2e streepje gaat verdwijnen)----------------------- */
@@ -131,14 +140,13 @@ nav img {
   opacity: 0;
 }
 
-.hamburger.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
+/*----------derde streepje draait 45 graden naar rechts---------- */
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+/*----------placeholder met alle menu items---------- */
+/*---De komt inspringen vanaf de linker kant, hij begint bij positie van -150%----- */
 .nav-menu {
   position: fixed;
   left: -150%;
@@ -158,6 +166,9 @@ nav img {
   padding: 4em 2em 4em 2em;
   justify-content: center;
 }
+
+/*----------Wanneer class nav-menu geactiveerd wordt wordt het menu zichtbaar---------- */
+/*---activeren gebeurt in dit geval met Javascript!-- */
 
 .nav-menu.active {
   left: 0;
